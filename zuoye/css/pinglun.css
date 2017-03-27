@@ -1,0 +1,123 @@
+body, p, img, dl, dt, dd, ul, ol, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+body { position: relative; font: 12px/24px "Microsoft YaHei", Arial; min-width: 960px; }
+ul, ol { list-style: none; }
+img { border: 0 none; }
+input, select { vertical-align: middle; }
+table { border-collapse: collapse; }
+s, em, i { font-style: normal; text-decoration: none; }
+.cf { *zoom: 1; }
+.cf:after { clear: both; content: "."; display: block; height: 0; overflow: hidden; visibility: hidden; zoom: 1; }
+.pinglun{
+    width: 660px;
+    height: 500px;
+    /*background-color: #ebe9d7;*/
+}
+.pinglun .top li{
+    float: left;
+    font-size: 12px;
+    color: #999;
+}
+.pinglun .top li a{
+    font-size: 12px;
+    color: #999;
+    text-decoration: none;
+}
+.pinglun .top li a:hover{
+    text-decoration: underline
+}
+.pinglun .top .right{
+    float: right;
+}
+.pinglun .top .right a{
+    color: #f54343;
+    text-decoration: none;
+    font-size: 14px;
+}
+.pinglun .top .right a:hover{
+    text-decoration: underline
+    /*hover时给标签添加下滑线*/
+}
+.pinglun .top .right .line{
+    margin: 0 8px;
+}
+.pinglun .box{
+    height: 165px;
+    border: 1px solid #999 ;
+    position: absolute;
+    top: 24px;
+    background-color: #f7f7f7;
+}
+.pinglun .box .content{
+    width: 640px;
+    height: 100px;
+    resize: none;
+    border: 1px solid #999;
+    border-radius: 1px;
+    outline: 0;
+    padding: 10px;
+}
+.pinglun .face{
+    position: absolute;
+    top: 120px;
+}
+.pinglun .box .smiles{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.pinglun .box .smiles:hover .sanjiao{
+    background: url(http://y0.ifengimg.com/fe/F_comment_new/images/face-TriggerArr_b9713c54.gif) no-repeat 0 0px;
+}
+.pinglun .box .smiles:hover + .faces{
+    display: block;
+}
+
+.pinglun .box .sanjiao{
+    width: 7px;
+    height: 4px;
+    background: url(http://y0.ifengimg.com/fe/F_comment_new/images/face-TriggerArr_b9713c54.gif) no-repeat 0 -4px;
+    position: absolute;
+    top: -1px;
+    left: 31px;
+}
+
+.pinglun .box .fbpl{
+    font-size: 18px;
+    width: 120px;
+    height: 45px;
+    background-color: #f54343;
+    color: white;
+    position: absolute;
+    left: 541px;
+    line-height: 45px;
+    text-align: center;
+}
+.pinglun .box .fbpl:hover{
+    background-color: #ba2636;
+}
+.pinglun .box .face .faces{
+    width: 350px;
+    height: 96px;
+    border: 1px solid #dcdcdc;
+    position: absolute;
+    top: 46px;
+    display: none;
+}
+.pinglun .box .face .faces .arr{
+    width: 8px;
+    height: 6px;
+    background: url(http://y0.ifengimg.com/fe/F_comment_new/images/face-dialogArr_2b3fabfb.png) no-repeat 0 0;
+    position: absolute;
+    top:-7px;
+    left: 18px;
+}
+.pinglun .box .face .faces li{
+    float: left;
+    margin: 10px 5px 0px 4px;
+    padding: 3px;
+    border: 1px solid #ebebeb;
+    width: 27px;
+    height: 27px;
+}
